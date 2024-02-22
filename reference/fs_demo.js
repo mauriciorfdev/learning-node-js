@@ -8,16 +8,16 @@ const path = require('path')
 }) */
 
 //Create and write file
-fs.writeFile( path.join(__dirname, '/test','hello.txt'),
-'Hello World!',
-err => {
-    if(err) throw err;
-    console.log('File written to...');
-})
-//Overwrite...
-fs.writeFile( path.join(__dirname, '/test','hello.txt'),
-'I Love NodeJS!',
-err => {
-    if(err) throw err;
-    console.log('File written to...');
-})
+fs.writeFile(path.join(__dirname, '/test', 'hello.txt'),
+    'Hello World!',
+    err => {
+        if (err) throw err;
+        console.log('File written to...');
+        //File Append...
+        fs.appendFile(path.join(__dirname, '/test', 'hello.txt'),
+            ' I Love NodeJS!',
+            err => {
+                if (err) throw err;
+                console.log('File written to...');
+            })
+    })
