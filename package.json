@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciorfdev/proyecto-node-js.git"
+  },
+  "author": "mrfdev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciorfdev/proyecto-node-js/issues"
+  },
+  "homepage": "https://github.com/mauriciorfdev/proyecto-node-js#readme",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
