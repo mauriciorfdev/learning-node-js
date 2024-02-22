@@ -8,7 +8,7 @@ const path = require('path')
 }) */
 
 //Create and write file
-fs.writeFile(path.join(__dirname, '/test', 'hello.txt'),
+/* fs.writeFile(path.join(__dirname, '/test', 'hello.txt'),
     'Hello World!',
     err => {
         if (err) throw err;
@@ -20,4 +20,9 @@ fs.writeFile(path.join(__dirname, '/test', 'hello.txt'),
                 if (err) throw err;
                 console.log('File written to...');
             })
-    })
+    }) */
+
+//Read File
+fs.readFile( path.join(__dirname, '/test', 'hello.txt'), 'utf8', (err,data) => {
+    console.log(data);
+} )
