@@ -3,7 +3,7 @@ Simple project to understand the basics of NodeJS.
 
 Allows us to create a server that take a request and send back responses. 
 
-## Modules
+# Modules
 
 Also includes examples of different modules:
 
@@ -17,7 +17,7 @@ Also includes examples of different modules:
     - To create-, fire-, and listen for your own events
 
 
-## Folder Structure
+# Folder Structure
 
 ```
 .
